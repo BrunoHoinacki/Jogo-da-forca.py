@@ -19,8 +19,7 @@ print("Bem vindo ao jogo da forca")
 print("Seu objetivo é descobrir a palavra secreta")
 print("Tente uma levras por vez")
 print("Caso você acerte, a letra sera adicionada na palavra secreta")
-print("Caso você erre, você percerá uma chance, você tem no máximo",
-      chances, "tentativas")
+print("Caso você erre, você percerá uma chance, você tem no máximo", chances, "tentativas")
 print("Dica: Palavras ligadas a T.I.")
 
 while tentativas < chances and ''.join(estado_atual) != palavra:
